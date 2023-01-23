@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task2;
 
 public class WordsBuilder {
     public void buildPhrase(char... chars) {
-        String phrase = new String();
+        String phrase = "";
         int counter = 0;
         while (counter < chars.length) {
             phrase += String.valueOf(chars[counter]);
